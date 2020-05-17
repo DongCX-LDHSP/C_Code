@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540017730 source:c:\users\wonderal-觥杲\desktop\cb工程文件\循环逐个打印星号\main.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

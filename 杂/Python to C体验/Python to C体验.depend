@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1548557028 source:d:\my files\cb工程文件\python to c体验\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

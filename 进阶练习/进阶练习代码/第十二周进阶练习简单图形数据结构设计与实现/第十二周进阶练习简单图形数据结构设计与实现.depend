@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543148369 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第十二周进阶练习简单图形数据结构设计与实现\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

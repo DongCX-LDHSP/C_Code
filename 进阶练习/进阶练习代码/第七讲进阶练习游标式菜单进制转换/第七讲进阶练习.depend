@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540732248 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第七讲进阶练习\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

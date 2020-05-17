@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1544750572 source:c:\users\wonderal-觥杲\desktop\cb工程文件\实验八读取年龄\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

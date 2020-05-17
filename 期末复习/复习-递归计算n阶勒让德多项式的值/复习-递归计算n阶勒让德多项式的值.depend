@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1546426435 source:d:\my files\cb工程文件\复习-递归计算n阶勒让德多项式的值\main.c
+	<stdio.h>
+	<stdlib.h>
+

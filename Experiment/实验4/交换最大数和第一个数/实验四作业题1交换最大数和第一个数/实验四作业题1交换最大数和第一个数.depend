@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541492908 source:c:\users\wonderal-觥杲\desktop\cb工程文件\实验四作业题1交换最大数和第一个数\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

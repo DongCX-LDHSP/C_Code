@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1543633398 source:e:\teach\teach2018Çï\2018ÇïcÓïÑÔ\samples\testfile\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1544487873 source:e:\teach\teach2018Çï\2018ÇïcÓïÑÔ\samples\teststrcut\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+

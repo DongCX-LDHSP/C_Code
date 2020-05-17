@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542262195 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第十一周删除字符串中与某字符相同的字符\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

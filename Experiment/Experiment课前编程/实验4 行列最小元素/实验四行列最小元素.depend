@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541417842 source:c:\users\wonderal-觥杲\desktop\cb工程文件\实验四行列最小元素\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

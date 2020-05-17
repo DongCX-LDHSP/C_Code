@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1557919000 source:d:\my files\cb projects\c projects\setiosflags\main.cpp
+	<iostream>
+	<iomanip>
+

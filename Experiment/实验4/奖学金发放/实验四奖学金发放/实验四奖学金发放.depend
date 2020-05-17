@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541488571 source:c:\users\wonderal-觥杲\desktop\cb工程文件\实验四奖学金发放\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

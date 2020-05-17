@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1545219660 source:c:\users\wonderal-觥杲\desktop\cb工程文件\程序检测专用\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1545402687 source:c:\users\wonderal-觥杲\onedrive\cb工程文件\程序检测专用\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1550377959 source:d:\my files\cb工程文件\程序检测专用\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1548479145 source:d:\my files\cb工程文件\程序检测专用\test.c
+
+1568894864 source:d:\my files\cb projects\c projects\程序检测专用\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

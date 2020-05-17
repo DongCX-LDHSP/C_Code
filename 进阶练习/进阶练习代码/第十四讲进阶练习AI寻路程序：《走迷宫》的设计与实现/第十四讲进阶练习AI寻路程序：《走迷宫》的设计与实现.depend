@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1544357342 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第十四讲进阶练习ai寻路程序：《走迷宫》的设计与实现\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+

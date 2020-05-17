@@ -1,0 +1,93 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct list
+{
+     int Id;
+     int Len;
+     char Type;
+     char Name[11];
+}list;
+
+
+int main()
+{
+    printf("请输入列表内容个数，人数\n");
+    int n,m;
+    int length=0;
+    list *p,*pr;
+    scanf("%d,%d",&m,&n);/*m为如姓名，年龄等属性的个数，n为人数*/
+    list *ps[m];/*存储对应内存的指针*/
+    void *pp[n];/*存放每个人数据的指针*/
+    int i,j,k,l;
+    printf("请输入类型,名称 长度\n【!*注意*!】\n类型和名称之间用[逗号]隔开，名称和长度之间用[空格]隔开\n类型c,C代表[字符串]，d,D代表[整形]\n");
+    for(i=0;i<m;i++)
+    {
+        p=(list*)calloc(1,sizeof(list));
+        p->Id=i+1;
+        if(p!=NULL)
+        {
+            scanf("  %c,%s%d",&p->Type,p->Name,&p->Len);
+            //printf("\n%c,%s %d",p->Type,p->Name,p->Len);
+            if(p->Type=='c'||p->Type=='C')
+            {
+                length=p->Len+length;
+            }
+            if(p->Type=='d'||p->Type=='D')
+            {
+                length=(p->Len)*4+length;
+            }
+            ps[i]=p;
+        }
+    }
+    printf("\n每个人所占字节为[%d]\n\n",length);
+    char A[length*n];
+    void *c=A;
+    void *C=A;
+    printf("每个数据中间用[空格]隔开，或每次输入一个数据按一下[回车]\n\n");
+    for(i=0;i<n;i++)
+    {
+        //pp[i]=(void*)malloc(length);
+        printf("\n请输入第[%d]个同学的信息\n\n",i+1);
+        for(j=0;j<m;j++)
+        {
+            printf("[%s]   ",ps[j]->Name);
+        }
+        printf("\n");
+        for(j=0;j<m;j++)
+        {
+            switch(ps[j]->Type)
+            {
+                case 'd':
+                case 'D':scanf("%d",(int*)c);c=c+ps[j]->Len;break;
+                case 'c':
+                case 'C':scanf("%s",(char*)c);c=c+ps[j]->Len;break;
+            }
+        }
+
+    }
+    printf("--------------输入完成---------------\n\n*******按任意键查看已输入信息*******\n\n");
+    getch();
+    int location=0;
+    for(k=0;k<n;k++)
+    {
+        printf("---------第[%d]个人信息如下---------\n\n",k+1);
+        for(j=0;j<m;j++)
+        {
+            printf("[%s]   ",ps[j]->Name);
+        }
+        printf("\n");
+        for(j=0;j<m;j++)
+        {
+            switch(ps[j]->Type)
+            {
+                case 'c':
+                case 'C':printf("%s     ",(char*)C);C+=ps[j]->Len;break;
+                case 'd':
+                case 'D':printf("%d     ",*(int*)C);C+=ps[j]->Len;break;
+            }
+        }
+        printf("\n");
+    }
+
+}

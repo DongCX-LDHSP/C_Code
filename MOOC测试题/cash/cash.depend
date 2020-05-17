@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1556542469 source:d:\my files\cb projects\c projects\cash\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

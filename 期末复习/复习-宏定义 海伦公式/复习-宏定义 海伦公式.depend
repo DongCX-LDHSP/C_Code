@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1546262291 source:d:\my files\cb工程文件\复习-宏定义 海伦公式\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1546244811 source:d:\my files\cb工程文件\复习-打印1000以内的水仙花数\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

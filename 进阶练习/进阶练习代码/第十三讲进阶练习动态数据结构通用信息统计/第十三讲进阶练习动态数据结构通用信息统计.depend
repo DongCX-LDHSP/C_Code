@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545023939 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第十三讲进阶练习动态数据结构通用信息统计\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

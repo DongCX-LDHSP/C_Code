@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1545058021 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第十五周进阶练习通用数据库之保存与读文件\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1549628141 source:d:\my files\cb工程文件\第十五周进阶练习通用数据库之保存与读文件\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

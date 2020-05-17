@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545916478 source:d:\my files\cb工程文件\复习-选择排序法\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

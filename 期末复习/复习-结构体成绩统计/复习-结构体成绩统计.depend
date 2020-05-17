@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1546437966 source:d:\my files\cb工程文件\复习-结构体成绩统计\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1540446319 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第六讲进阶练习10以内加减法练习\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<conio.h>
+

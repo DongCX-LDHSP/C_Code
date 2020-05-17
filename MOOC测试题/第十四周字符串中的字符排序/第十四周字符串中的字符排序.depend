@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543841048 source:c:\users\wonderal-觥杲\desktop\cb工程文件\第十四周字符串中的字符排序\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
